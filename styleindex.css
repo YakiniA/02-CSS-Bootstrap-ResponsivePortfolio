@@ -4,7 +4,6 @@
     margin: 10px;
     width: 250px;
     text-align:center;
-  
 }
 
 body{
@@ -15,8 +14,6 @@ body{
     margin:25px;
     padding: 10px;
     background-color: white;
-  
-   
 }
 
 .desktop{  
@@ -24,44 +21,40 @@ body{
   top: 8px;
   right: 16px;
   font-size: 18px;
-   
 } 
 
-
-.card-footer {
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    width: 100%;
+.col-md-8{
+    display:inline-block;
+}
+.sticky-bottom {
+   
+    padding-top: 15px;
     height: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    background-color: lightgray;
-   
-
+    text-align: center; 
+    background-color: lightgray; 
 }
-
 
   @media screen and (max-width: 767px) {
     .container{
         width: 100%;
         height:60%
-
     }
     .navbar-brand{
         width:100%;
     }
-
-    .desktop{
-        position: absolute;
-        left: 0;
-        top: 50%;
-        width: 100%;
-        text-align: center;
-        font-size: 18px;
-      }
-     
-    .card-footer{
-        position: static;
+    .navbar-nav{
+        display:flex;
+        flex-direction: row;    
     }
+    .desktop{      
+        left: 35%;
+        top: 50%; 
+        font-size: 18px;        
+      }  
+    .navbar-nav .nav-link {
+        padding-right: 20px;
+        padding-left: 0;
+    }      
+    
   }
