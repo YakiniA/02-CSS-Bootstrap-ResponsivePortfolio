@@ -8,22 +8,30 @@
 
 body{
     background-color: rgb(243, 239, 239);
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 60px;
+   
 }
 
-.container{
-    margin:25px;
-    padding: 10px; 
-    background-color: white;
+.container{   
+    background-color: white; 
+   
 }
 
+/* .row{
+    display:flex;
+} */
 .desktop{  
   position: absolute;
   top: 8px;
   right: 16px;
   font-size: 18px;
 } 
-img{
-    width:200px;
+
+.float-left{
+    width:150px;
+    height:200px;
 }
 
 .card-footer {
@@ -38,7 +46,22 @@ img{
 
 }
 
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: lightgray;
+
+}
+
 /* Styling portfolio page */
+.portfolioimg{
+    width: 100%;
+}
 .imgContent{
     position:absolute;
     bottom:10px;
@@ -46,14 +69,26 @@ img{
     color: white;
     text-align:center;
     margin-bottom:30px;
-    width:95%; 
+    width:100%; 
 
 }
-  @media screen and (max-width: 767px) {
-    .container{
-        width: 100%;
-        height:60%
+
+
+@media screen and (max-width: 1024px) {
+
+    /* Styling portfolio page */
+    .imgContent{
+        width: 92%;
+       
     }
+    .card-footer{
+        position: static;
+        width: 100%;
+    }
+}
+
+  @media screen and (max-width: 767px) {
+  
     .navbar-brand{
         width:100%;
     }
@@ -67,7 +102,7 @@ img{
         font-size: 18px;        
       }  
     .navbar-nav .nav-link {
-        padding-right: 20px;
+        padding-right: 10px;
         padding-left: 0;
     }    
 
@@ -78,16 +113,25 @@ img{
     }
 }
 
-@media screen and (max-width: 991px) {
 
-    /* Styling portfolio page */
-    .imgContent{
-        width: 92%;
-       
-    }
-    .card-footer{
-        position: static;
-        width: 100%;
-    }
+    @media screen and (max-width: 530px) {
+        .desktop{      
+            left: 28%;
+        }
+
+        .imgContent{
+            width: 90%;
+           
+        }
         
   }
+
+  
+  @media screen and (max-width: 359px) {
+
+    .imgContent{
+        width: 87%;
+       
+    }
+    
+}
