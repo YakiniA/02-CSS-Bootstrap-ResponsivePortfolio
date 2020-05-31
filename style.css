@@ -1,10 +1,21 @@
 .navbar-brand{
-    background-color: rgb(83, 19, 69);
-    color: white;
-    margin: 10px;
+    /* background-color: rgb(83, 19, 69);
+    color: white; */
+    color: rgb(83, 19, 69);
+    margin: 8px;
     width: 250px;
     text-align:center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-family: 'Sail', cursive;
+    font-size: 30px;
+   
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; */
+}
+
+.nav-link{
+   color: rgb(83, 19, 69);
+   font-family: 'Kotta One', serif;
+   margin-top:10px;
+   font-size: 20px;
 }
 
 body{
@@ -26,8 +37,8 @@ body{
 } 
 
 .float-left{
-    width:300px;
-    height:300px;
+    width:180px;
+    height:200px;
 }
 
 footer {
@@ -79,4 +90,8 @@ footer {
         .desktop{      
             left: 28%;
         }
+    
   }
+
+  
+ 
