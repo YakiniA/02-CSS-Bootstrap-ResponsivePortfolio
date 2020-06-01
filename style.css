@@ -20,7 +20,7 @@
 }
 
 h3{
-   color:dimgray;
+   color: rgb(83, 19, 69);
    font-family: 'Rye', cursive;;
 }
 
@@ -62,7 +62,7 @@ footer {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    background-color: lightgray;
+    background-color:darkgrey;
 }
 
 /* Styling portfolio page */
