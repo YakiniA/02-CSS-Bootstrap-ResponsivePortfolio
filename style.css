@@ -1,12 +1,13 @@
-
+/*Used for styling the name in the nav bar*/
 .navbar-brand{
     color: rgb(83, 19, 69);
     margin: 8px;
     text-align:center;
     font-family: 'Sail', cursive;
-    font-size: 30px;
+    font-size: 28px;
 }
 
+/*Used for styling the links present in the nav bar*/
 .nav-link{
    color: rgb(83, 19, 69);
    font-family: 'Kotta One', serif;
@@ -14,11 +15,13 @@
    font-size: 20px;
 }
 
+/* Used for styling the headings in every page (About Me, Portfolio, Contact) */
 h3{
    color: rgb(83, 19, 69);
    font-family: 'Rye', cursive;;
 }
 
+/* min-height:100vh, position:relative helps the footer to stick to the bottom of the page*/
 body{
     background-color: rgb(243, 239, 239);
     position: relative;
@@ -30,6 +33,7 @@ body{
     background-color: white;  
 }
 
+/*Used for making the nav links present at appropriate position in the page*/
 .desktop{  
   position: absolute;
   top: 8px;
@@ -48,6 +52,7 @@ p{
     font-size: 18px;
     font-style: normal;
 }
+
 footer {
     position: absolute;
     bottom: 0px;
@@ -74,6 +79,7 @@ footer {
     width:100%;    
 }
 
+/* These media queries are helpful in achieving responsive nav bar*/
   @media screen and (max-width: 767px) {
     .navbar-brand{
         width:100%;
@@ -96,7 +102,7 @@ footer {
 
     @media screen and (max-width: 530px) {
         .desktop{      
-            left: 28%;
+            left: 25%;
         }
     
   }
