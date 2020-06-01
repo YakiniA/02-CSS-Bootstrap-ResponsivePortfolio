@@ -1,4 +1,5 @@
 /*Used for styling the name in the nav bar*/
+
 .navbar-brand{
     color: rgb(83, 19, 69);
     margin: 8px;
@@ -13,6 +14,7 @@
    font-family: 'Kotta One', serif;
    margin-top:10px;
    font-size: 20px;
+  
 }
 
 /* Used for styling the headings in every page (About Me, Portfolio, Contact) */
@@ -97,7 +99,10 @@ footer {
     .navbar-nav .nav-link {
         padding-right: 10px;
         padding-left: 0;
+       
     }    
+
+    
 }
 
     @media screen and (max-width: 530px) {

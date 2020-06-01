@@ -30,10 +30,16 @@ the image properly.
 * The contact page also has responsive navigation bar with name and nav links, on clicking the links results in appropriate pages.
 * It has Name, Email, Message and Submit fields. All these are written using Bootstrap.
 * Adavantage of using Bootstrap in forms is that default validation feedback for fields are given.
-* The styling and alignment issues are minimized with the help of Bootstrap. They provide the spacing options like margin(m), padding(p) that can be added to our class in html.
+* The styling and alignment issues are minimized with the help of Bootstrap. They provide wide range of shorthand responsive margin and padding utility classes to modify an element’s appearance.
 * Like Homepage, sticky footer is present at the bottom of the page.
 
 # Challenges Faced
 
-* 
+* In this application, used media queries to make the nav bar as responsive and used display:fex; flex-direction:row to achieve as expected. Another way is by using buttons  in Bootstrap, but this results in `buttons` on small screen size and on clickig that we can see the nav links. [For more details refer Bootstrap documentation](https://getbootstrap.com/docs/4.5/components/navbar/)
+
+* To make footer as a sticky one, used min-height:100vh, position:relative in body CSS file and made the width as 100% in the footer.
+
+* In portfolio page, the text contents has to properly align with the image and should be responsive as well. 
+
+
 
