@@ -1,3 +1,4 @@
+
 .navbar-brand{
     /* background-color: rgb(83, 19, 69);
     color: white; */
@@ -18,6 +19,11 @@
    font-size: 20px;
 }
 
+h3{
+   color:dimgray;
+   font-family: 'Rye', cursive;;
+}
+
 body{
     background-color: rgb(243, 239, 239);
     position: relative;
@@ -36,11 +42,18 @@ body{
   font-size: 18px;
 } 
 
-.float-left{
-    width:180px;
-    height:200px;
+/*Used to make the image as responsive */
+.imgResponsive{
+    max-width:180px;
+    height:auto;
 }
 
+p{
+    /* font-family: 'Sail', cursive; */
+    font-family: serif;
+    font-size: 18px;
+    font-style: normal;
+}
 footer {
     position: absolute;
     bottom: 0px;
@@ -60,7 +73,7 @@ footer {
 .text-block{
     position:absolute;
     bottom:30px;
-    background-color: rgb(23, 96, 97);
+    background-color: rgb(15, 211, 214);
     color: white;
     text-align:center;
     /* margin-bottom:30px; */
@@ -92,6 +105,13 @@ footer {
         }
     
   }
+
+  @media screen and (max-width: 500px) {
+  p{
+      margin-top:190px;
+  }
+
+}
 
   
  
