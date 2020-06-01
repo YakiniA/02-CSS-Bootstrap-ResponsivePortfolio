@@ -1,15 +1,10 @@
 
 .navbar-brand{
-    /* background-color: rgb(83, 19, 69);
-    color: white; */
     color: rgb(83, 19, 69);
     margin: 8px;
-    width: 250px;
     text-align:center;
     font-family: 'Sail', cursive;
     font-size: 30px;
-   
-    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; */
 }
 
 .nav-link{
@@ -42,14 +37,13 @@ body{
   font-size: 18px;
 } 
 
-/*Used to make the image as responsive */
+/*Code to make the image as responsive in About page */
 .imgResponsive{
     max-width:180px;
     height:auto;
 }
 
 p{
-    /* font-family: 'Sail', cursive; */
     font-family: serif;
     font-size: 18px;
     font-style: normal;
@@ -70,13 +64,13 @@ footer {
     position: relative;  
 }
 
+/* To make content align with image in Portfolio page*/
 .text-block{
     position:absolute;
     bottom:30px;
     background-color: rgb(15, 211, 214);
     color: white;
     text-align:center;
-    /* margin-bottom:30px; */
     width:100%;    
 }
 
@@ -90,8 +84,9 @@ footer {
     }
     .desktop{      
         left: 35%;
-        top: 50%; 
-        font-size: 18px;        
+        top: 55%; 
+        font-size: 18px;     
+        
     }  
     .navbar-nav .nav-link {
         padding-right: 10px;
