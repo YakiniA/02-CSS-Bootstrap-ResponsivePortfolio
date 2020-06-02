@@ -44,6 +44,6 @@ Here's the link to my developed Website : [Link to my developed website](https:/
 
 ###### References:
 
-W3Schools : [W3Schools](https://www.w3schools.com/howto/howto_css_image_text_blocks.asp)
-Bootstrap : [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+W3Schools : [W3Schools](https://www.w3schools.com/howto/howto_css_image_text_blocks.asp)<br/>
+Bootstrap : [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)<br/>
 Video On Footer : [Youtube Video](https://www.youtube.com/watch?v=US_3XvufMLU)
