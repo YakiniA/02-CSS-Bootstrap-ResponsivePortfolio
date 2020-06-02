@@ -1,8 +1,8 @@
-# Unit 02 CSS and Bootstrap: Responsive Portfolio
+## Unit 02 CSS and Bootstrap: Responsive Portfolio
 
-This assignment mainly focuses on a responsive view of various devices or screen sizes. That means if it's an `xs` screen, content is displayed on the entire screen. On `sm` and larger screens, there are some margins present on either side of the screen. The web application is primarily developed by using Bootstrap and responsive view achieved by using media queries as needed. I also used an HTML validation service to ensure that it's a proper and valid HTML.
+This assignment mainly focuses on a responsive view, the web application should display correctly on various devices.That means if it's an `xs` screen, content is displayed on the entire screen. On `sm` and larger screens, there are some margins present on either side of the screen. The web application is primarily developed by using Bootstrap and responsive view achieved by using media queries as needed. I also used an HTML validation service to ensure that it's a proper and valid HTML.
 
-## About Page/Home Page
+### About Page/Home Page
 
 * The file "index.html" is for About Page/Home Page.
 * This page has a navigation bar(navbar) with name on the left side and About, Portfolio and Contact Us links on the right side. On clicking the links results in the respective page.
@@ -13,7 +13,7 @@ This assignment mainly focuses on a responsive view of various devices or screen
 * Used Semantic HTML elements as needed.
 * The footer is located at the bottom of the page. It is made as Sticky footer, which means the footer always sticks to the bottom regardless of the content. This is achieved mainly by using CSS. 
 
-## Portfolio Page
+### Portfolio Page
 
 * The file "portfolio.html" is for Portfolio Page.
 * This page also has a responsive navigation bar with name and nav links like in the homepage. On clicking the links takes to the corresponding pages.
@@ -23,7 +23,7 @@ This assignment mainly focuses on a responsive view of various devices or screen
 * The images and the layout are highly responsive.
 * Like Homepage, the sticky footer is present at the bottom of the page.
 
-## Contact Page
+### Contact Page
 
 * The file "Contact.html" is for Contact Page.
 * The contact page also has a responsive navigation bar with name and nav links, on clicking the links results in the corresponding pages.
@@ -32,7 +32,7 @@ This assignment mainly focuses on a responsive view of various devices or screen
 * The styling and alignment issues are minimized with the help of Bootstrap. They provide a wide range of shorthand responsive margin and padding utility classes to modify an element's appearance.
 * Like Homepage, the sticky footer is present at the bottom of the page.
 
-## Challenges Faced
+### Challenges Faced
 
 * In this application, I used media queries to make the navbar as responsive and used display: flex; flex-direction: row to achieve as expected. Another way is by using buttons in Bootstrap, but this results in `buttons` on small screen size and on clicking that we can see the nav links(About, Portfolio, Contact). [For more details refer Bootstrap documentation](https://getbootstrap.com/docs/4.5/components/navbar/)
 
@@ -40,7 +40,10 @@ This assignment mainly focuses on a responsive view of various devices or screen
 
 * In the portfolio page, the text contents have to properly align with its corresponding image and should be responsive as well. For that, text-contents are placed inside the class "text-block," and by applying CSS, it properly aligns with the image on the page.
 
-#### Screenshots:
+* Used HTML Validator Service for ensuring that it's a valid HTML and made corrections as necessary.
+[HTML Validation Service](https://html5.validator.nu/) 
+
+#### Screenshots
 
 <p style ="text-align:center;">
 <img src="Assets/Images/AboutPage.jpg" width="300" alt= "AboutPage" height="350"/>
@@ -51,7 +54,7 @@ This assignment mainly focuses on a responsive view of various devices or screen
 
 Here's the link to my developed Website : [CSS-Bootstrap-ResponsivePortfolio](https://yakinia.github.io/02-CSS-Bootstrap-ResponsivePortfolio/index.html)
 
-##### References:
+##### References
 
 W3Schools : [W3Schools](https://www.w3schools.com/howto/howto_css_image_text_blocks.asp)<br/>
 Bootstrap : [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)<br/>
