@@ -41,10 +41,11 @@ This assignment mainly focuses on a responsive view of various devices or screen
 * In the portfolio page, the text contents have to properly align with its corresponding image and should be responsive as well. For that, text-contents are placed inside the class "text-block," and by applying CSS, it properly aligns with the image on the page.
 
 #### Screenshots:
-![alt text](Assets/Images/AboutPage.jpg)
-![alt text](Assets/Images/AboutPageResponsive.jpg)
-![alt text](Assets/Images/Portfolio.jpg)
-![alt text](Assets/Images/Contact.jpg)
+
+<img src="Assets/Images/AboutPage.jpg" alt="Your image title" width="250"/>
+<img src="Assets/Images/AboutPageResponsive.jpg" alt="Your image title" width="250"/>
+<img src="Assets/Images/Portfolio.jpg" alt="Your image title" width="250"/>
+<img src="Assets/Images/Contact.jpg" alt="Your image title" width="250"/>
 
 Here's the link to my developed Website : [CSS-Bootstrap-ResponsivePortfolio](https://yakinia.github.io/02-CSS-Bootstrap-ResponsivePortfolio/index.html)
 
