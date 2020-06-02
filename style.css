@@ -37,12 +37,11 @@ body{
 }
 
 /*Used for making the nav links present at appropriate position in the page*/
-.desktop{  
+.respNavBar{  
   position: absolute;
   top: 8px;
   right: 16px;
   font-size: 18px;
-  /* margin-bottom: 8px; */
 } 
 
 /*Code to make the image as responsive in About page */
@@ -94,7 +93,7 @@ footer {
         margin-bottom: 8px;
        
     }
-    .desktop{      
+    .respNavBar{      
         left: 35%;
         top: 55%; 
         font-size: 18px;     
@@ -104,13 +103,11 @@ footer {
         padding-right: 10px;
         padding-left: 0;
        
-    }    
-
-    
+    }       
 }
 
     @media screen and (max-width: 530px) {
-        .desktop{      
+        .respNavBar{      
             left: 25%;
         }
     
