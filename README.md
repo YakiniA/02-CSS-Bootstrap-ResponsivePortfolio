@@ -42,11 +42,11 @@ This assignment mainly focuses on a responsive view of various devices or screen
 
 #### Screenshots:
 
-<p align ="center">
-<img src="Assets/Images/AboutPage.jpg" width="300" height="350"/>
-<img src="Assets/Images/AboutPageResponsive.jpg"  width="300" height="350"/>
-<img src="Assets/Images/Portfolio.jpg" width="300" height="350"/>
-<img src="Assets/Images/Contact.jpg"  width="300" height="350"/>
+<p style ="text-align:center;">
+<img src="Assets/Images/AboutPage.jpg" width="300" alt= "AboutPage" height="350"/>
+<img src="Assets/Images/AboutPageResponsive.jpg"  width="300" alt="About Page Responsive" height="350"/>
+<img src="Assets/Images/Portfolio.jpg" width="300" alt="Portfolio Page" height="350"/>
+<img src="Assets/Images/Contact.jpg"  width="300" alt="Contact Page" height="350"/>
 </p>
 
 Here's the link to my developed Website : [CSS-Bootstrap-ResponsivePortfolio](https://yakinia.github.io/02-CSS-Bootstrap-ResponsivePortfolio/index.html)
