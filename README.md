@@ -1,6 +1,6 @@
 ## Unit 02 CSS and Bootstrap: Responsive Portfolio
 
-This assignment mainly focuses on a responsive view, the web application should display correctly on various devices.That means if it's an `xs` screen, content is displayed on the entire screen. On `sm` and larger screens, there are some margins present on either side of the screen. The web application is primarily developed by using Bootstrap and responsive view achieved by using media queries as needed. I also used an HTML validation service to ensure that it's a proper and valid HTML.
+This assignment mainly focuses on a responsive view, the web application should display correctly on various devices.That means if it's an `xs` screen, content is displayed on the entire screen. On `sm` and larger screens, there are some margins present on either side of the screen. The web application is primarily developed by using Bootstrap and responsive view achieved by using media queries as needed.I also used an HTML validation service to ensure that it's a proper and valid HTML.
 
 ### About Page/Home Page
 
@@ -40,7 +40,7 @@ This assignment mainly focuses on a responsive view, the web application should 
 
 * In the portfolio page, the text contents have to properly align with its corresponding image and should be responsive as well. For that, text-contents are placed inside the class "text-block," and by applying CSS, it properly aligns with the image on the page.
 
-* Used HTML Validator Service for ensuring that it's a valid HTML and made corrections as necessary.
+* Used HTML Validator Service to validate my HTML and corrected two errors in the code and ensured that no major mistakes are present.
 [HTML Validation Service](https://html5.validator.nu/) 
 
 #### Screenshots
