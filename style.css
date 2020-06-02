@@ -37,7 +37,7 @@ body{
 }
 
 /*Used for making the nav links present at appropriate position in the page*/
-.respNavBar{  
+.navBarLinks{  
   position: absolute;
   top: 8px;
   right: 16px;
@@ -93,7 +93,7 @@ footer {
         margin-bottom: 8px;
        
     }
-    .respNavBar{      
+    .navBarLinks{      
         left: 35%;
         top: 55%; 
         font-size: 18px;     
@@ -107,7 +107,7 @@ footer {
 }
 
     @media screen and (max-width: 530px) {
-        .respNavBar{      
+        .navBarLinks{      
             left: 25%;
         }
     
